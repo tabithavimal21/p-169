@@ -4,13 +4,13 @@ AFRAME.registerComponent("marker-handler",{
             console.log("Marker found")
             var buttonDiv=document.getElementById("button-div")
             buttonDiv.style.display="flex"
-            var ratingButton=document.getElementById("rating-button")
             var orderButton=document.getElementById("order-button")
+            var orderSummaryButton=document.getElementById("order-summary-button")
             ratingButton.addEventListener("click",()=>{
                 swal({
                     icon:"warning",
-                    title:"Rate The Dish",
-                    text:"We would love to hear you rate this dish",
+                    title:"Order Summary",
+                    text:"Work In Progress",
                 })
 
             })
